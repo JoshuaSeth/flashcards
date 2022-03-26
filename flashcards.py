@@ -25,7 +25,8 @@ def start_quiz(path, quiz_name, qa_order):
                 # Print a new question
                 print("\n----------------------\n", (total_len - len(l)+1),
                       "/", total_len, "\n", q, "\n")
-                i = input("press y if you know and n if you didn't: \n\n")
+                i = input(
+                    "press y if you know and any button if you didn't: \n\n")
 
                 # Remove question if user says he/she knew
                 if i == "y":
