@@ -6,5 +6,3 @@ A: LFP local field potential
 
 Q: Which bands correlate with BOLD?
 A: All of them but gamma the strongest
-
-Q: 
