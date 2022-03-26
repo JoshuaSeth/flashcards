@@ -1,0 +1,42 @@
+
+Q: How can we show both signal without a fixed hrf and without to many regressors?
+A: Gamma basis fuctions as a hrf with a first time derivative and a dispersion derivative
+
+Q: What is the problem with tryig to regress everything out in preprocessing?
+A: The degrees of freedom decrease still lowering your t-value (overfitting)
+
+Q: Name the five major preprocessing steps
+A: 1. Distortion correction 2. motion correction 3. slice time correction 4. temporal filtering 5. spatial smoothing
+
+Q: What is distortion correction
+A: Distortion from objects in the scanner we try to fit images to a canonical b0 image of the subject
+
+Q: How do we compensate motion from heartbeat ad respiration
+A: Regress them out
+
+Q: How do we compensate head motion?
+A: Head motion regressots or interpolation or reference volume
+
+Q: What is temporal filtering?
+A: We filter out the drifts
+
+Q: What are the costs and benefits of spatial smoothing
+A: The noise is smoothed out so higher SNR but lower specificity
+
+Q: How ca we use T1 anatomy?
+A: To separate white and gray matter the gray matter is where the bold activitions take place
+
+Q: What are 3 methods of multi subject FMRI registration
+A: 1. Surface based registration 2. Standard FSL registration across participants 3. ROI analysis
+
+Q: What are the disadvantages of FSL registration to a standard brain?
+A: 1. MNI is standard brain without any detail 2. Old standard brain was a non-prototypical woman 3. Gyruses and sulci's collide into each other by the warping
+
+Q: What are the disadvantages of surface based registration?
+A: Specialist knowledge required
+
+Q: What are the advantages of surface based registration?
+A: Correspond to how the brain is organised, probably better statistics
+
+Q: What two alignments do we need to do with fmri data?
+A: EPI to T1 for within subject mapping and across-subject mapping

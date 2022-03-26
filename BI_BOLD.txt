@@ -1,0 +1,10 @@
+Q: Blood oxygenation is diamagnetic or paramagnetic to the scanner?
+A: Diamagnetic
+
+Q: Does BOLD correlate with multi-uit activatio or local field potetial?
+A: LFP local field potential
+
+Q: Which bands correlate with BOLD?
+A: All of them but gamma the strongest
+
+Q: 

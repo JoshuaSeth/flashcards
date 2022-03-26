@@ -1,0 +1,44 @@
+Q: Non-normal data, 2 samples, independent, test difference in distributions
+A: Kolmogorov-Smirnov test
+
+Q: Non-normal data, 1 sample, test difference with distribution
+A: Kolmogorov-Smirnov test
+
+Q: What is the difference between Komogor-Smirnov and Mann-whitney?
+A: The latter only tests for difference in medians where the former test for difference in median, mean, variance (most properties of the distribution vs. only the locaiton of the distribution)
+
+Q: Non-normal data, normal errors, 2 or more saples, independent, test difference between levels (samples)
+A: One-way ANOVA
+
+Q: Non-normal data, non-normal errors, all nij >5, 2 or more samples, test difference in medians
+A: Kruskal-Wallis test
+
+Q: Non-normal data, 2 or more samples, independent, test whether samples from different populations
+A: Permutation test for independent samples
+
+Q: What is the difference between Kruskal-Wallis test and Permutation test for independent samples?
+A: The former requires every nij > 5 and tests for difference in medians where the latter tests whether samples came from different populations
+
+Q: Non-normal data, normal errors, 2 or more samples x 2 or more samples, independent, test every factor + interactions
+A: 2-way ANOVA
+
+Q: Non-normal data, normal errors, 2 or more samples, dependent, test difference between levels (samples)
+A: 1-way ANOVA with repeated measures
+
+Q: Non-normal data, non-normal errors, 2 or more samples, dependent, test difference between levels (samples)
+A: Friedman test
+
+Q: What is the difference between the Friedman test on one side and Kruskal-Wallis and permutation test on the other side?
+A: The former is for dependent samples (repeated measures) the latter are not. Both are for data with non-normal errors
+
+Q: Non-normal data, 80% n>5, 2 factors with n levels both, test whether interaction between factors
+A: CHi-square test
+
+Q: Non-normal data, 2x2, 2 factors with 2 levels both, test whether interaction between factors
+A: Fisher exact test
+
+Q: No real assumptions, 2 samples, test for dependence, whether rho is 0
+A: Simple Linear regression
+
+Q: No real assumptions, 2 or more samples, test whether rho is zero which is: whether all beta's are zero
+A: Multiple linear regression

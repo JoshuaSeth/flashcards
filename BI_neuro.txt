@@ -1,0 +1,44 @@
+Q: What are the input and output of a neuron called
+A: Axon
+
+Q: By what are axons of different neurons connected?
+A: synapses
+
+Q: What are the 'fingers' of an Axon?
+A: Dendrites
+
+Q: What are helper cells for neurons?
+A: Glial cells
+
+Q: What types of glial cells are there?
+A: Astrocytes, Schwann cells (myelin production), Microglial cells (blood brain barrier)
+
+Q: What is the top-level separation of brain areas?
+A: Cortex into 4 lobes and brain stem and cerebellum
+
+Q: What does the frontal lobe do?
+A: Thinking, memory, behaviour and movement
+
+Q: What does the temporal lobe do?
+A: Hearing, learning and feelings
+
+Q: What does the brain stem do?
+A: Heart rate, breathing and temperature
+
+Q: What does the parietal lobe do?
+A: Language and touch
+
+Q: What does the occipital lobe do?
+A: Sight
+
+Q: What does the cerebellum do?
+A: Movement and coordination
+
+Q: What happens when you go from posterior to anterior parts of the frontal lobe?
+A: You move from direct planned actions to more abstract planning
+
+Q: Why has the brain very close communication between motor and touch?
+A: Motor actions often lead to sensory data, the motor and sensory maps of body parts align almost perfectly
+
+Q: What are the different ways to send signals?
+A: 1. The basic direct action-potential 2. Neurotransmittor binds modulate the action-potential properties of the cells

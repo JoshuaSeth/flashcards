@@ -1,0 +1,50 @@
+Q: When neurons are briefly active, what does theBOLD response do over time?
+A: This is called the HRF - for Haemodynamic ResponseFunction
+
+Q: Magnetic direction of Longitudinal
+A: parallel to the magnetic field
+
+Q: Magnetic direction of Transverse
+A: perpendiculat to the magnetic field
+
+Q: What does the RF pulse do?
+A: This causes the phases of all the spins to tipover, and aligns their phases
+
+Q: Which magnetic direction decreases and which increases under an RF pulse?
+A: The longitudinal M decreases, and a strong transversal M is created.
+
+Q: The restoration of M in the longitudinal direction causes
+A: exponential increase with time constant T1
+
+Q: The decay of M in the transverse direction:
+A: exponential decrease with time constant T2
+
+Q: What is TR?
+A: changing howoften we excitethe nuclei, aninterval called TR
+
+Q: What is TE?
+A: when we readout signals afterexcitation (TE)
+
+Q: How do you get T2*?
+A: Combine  T2 with local inhomogenities in the field
+
+Q: How do we use T2* for experimental hypothesis?
+A: We relate changes in T2* values to our experimental manipulations
+
+Q: Does BOLD measure neuronal activation?
+A: No it measures metabolistic demands and has in indrect relation with neuronal activation
+
+Q: How do we compensate for the fact that the experiment stimulus is direct while BOLD happens somewhat late?
+A: We convolve the singular peak of the experiment with the HRF to get a continuous response over time
+
+Q: What are the 3 HRF (Haemodynamic Response Function) phases?
+A: 1. Initial dip by neuronal usage 2. oversupply of oxyginated blood 3. post-stimulus undershoot
+
+Q: What is the trade-off of increasing TR?
+A: longer means more signal but a lower temporal frequency (kinda added together)
+
+Q: What is the trade-off of decreasing voxel size?
+A: Less signal per voxel (less clear) but of course higher speatial precision (i.e. spatial frequency)
+
+Q: What are two alternatives to a fixed HRF, using regressors?
+A: 1. Finite Impulse Response where each timepoint is a regressor which estimates HRF very well 2. With frequencies where every frequency is a regressor

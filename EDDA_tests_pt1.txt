@@ -1,0 +1,41 @@
+Q: Normal data, 2 samples, dependent, interest in difference mean
+A: paired t-test
+
+Q: Normal data, 2 samples, independent, interest in difference mean
+A: t-test
+
+Q: Normal data 1 sample, compare mean_hat against mean
+A: One-sample t-test
+
+Q: Non-normal data, 2 samples, dependent, interest in difference medians
+A: Sign test
+
+Q: Non-normal data, 1 samples, interest in difference median_hat with median
+A: Sign test
+
+Q: Non-normal symmetric data, 2 samples, dependent, interest in diffference medians
+A: Wilcoxon test
+
+Q: Non-normal symmetric data, 1 sample, interest in diffference median_hat median
+A: Wilcoxon test
+
+Q: Non-normal data, 2 samples, independent, interest in difference medians
+A: Mann-whitney test
+
+Q: Non-normal data, 2 samples, dependent, interest in p for any test statistic
+A: Permutation test
+
+Q: What is the difference between Wilcoxon and Sign test?
+A: The former requires symmetric data and has higher power where the latter doesn't. Both are for 1 sample of paired samples (not independent).
+
+Q: What is the difference between the sign test and the Mann-whitney test?
+A: The latter is applicable to two independent samples where the former isn't. Both measure difference in medians.
+
+Q: What is the difference between Wilcoxon test and Mann-whitney test?
+A: They use the same test code but the former is for  sample or dependent samples where the latter is for 2 independent samples
+
+Q: Normal data, 2 samples, test whether they are dependent (correlate), test whether rho = 0
+A: Pearson's test (or LM)
+
+Q: Non-normal data, 2 samples, test whether they are dependent (correlate), test whether rho = 0
+A: Spearman's test

@@ -1,0 +1,50 @@
+Q: What are the two methods of anatomical connectivity?
+A: Parcellation and tractogaphy
+
+Q: On what 3 things can parcellation be based?
+A: 1. Myelin content of 3 images 2. Combination of location to atlas, curvature and thickness 3. Based on task FMRI
+
+Q: How did old tractography work?
+A: Animals where injected with rabies virus. After X delay the animal was killed and the amount of synapses crossed by the virus was checked. So you find out what connects to injected site.
+
+Q: What is the name of modern tractography?
+A: Tractography DTI
+
+Q: How does tractography DTI work?
+A: Check water with the scanner at T1 check if it has moved in a certain direction in T2. Axon bundles constrain diffusion of water to a single direction.
+
+Q: What are different measurements used in tractography DTI?
+A: Fractional anisotropy (amount of diffusion assymmetry) and Local orientation of bundels (Direction)
+
+Q: Why the emphasis on connectivity?
+A: BOLD only told us activation in an area not what happened in other brain regions and the connections
+
+Q: What is Resting state fMRI and how can we us eit for connectivity?
+A:It is the BOLD signal while not performing a task and it allows us to correlate different regions with each other.
+
+Q: What is independent componenent analysis?
+A: Statistical method that extracts maximamally independent patterns of coherent fMRI activit which are then linearly mixed in with the data
+
+Q: What do the components from ICA consist of?
+A: A timecourse and an associated spatial map
+
+Q: What is parcellation?
+A: Determining ROI's borders
+
+Q: How does parcellation based on images work?
+A: Different types of images for example divide T1 by T2 which gives myelin. So different images allows us to determine cell types in areas.
+
+Q: How does parcellation based on curvature and thickness work?
+A: You see a thick and a thin region and separate them based on this criteria.
+
+Q: How does parcellation based on task FMRI work?
+A: DIfferent tasks show different region activations
+
+Q: What is the difference between parcellation and tractography?
+A: Parcellation divides the brain in regions, tractography looks at the connections between these regions
+
+Q: What is the idea behind ICA? Example components?
+A: The idea is that a signal is a combination of components (e.g. machine noise, taks, arousals, pulsations)
+
+Q: What is the benefit of ICA?
+A: You can use it to denoise the data or use it for seeing which brain regions co-flutuate and determine different ressting state networks

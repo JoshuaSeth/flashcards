@@ -1,0 +1,35 @@
+Q: What is another name for blobology?
+A: Univariate analysis
+
+Q: What is the problem with blobology?
+A: The thresholding problem of t values
+
+Q: What is neoprhenology?
+A: localizing functions in particular locations in the brain, however there is a big overlap in functions.
+
+Q: What are the limitations of blobology?
+A: 1. Cannot distinguish different stimuli types within ROI (pattern classification) 2. Reverse inference is hard (forward models)
+
+Q: What allows multivariate us to do?
+A: distinction between different stimuli types, instead of average activity we look for pattern of activity
+
+Q: What does pattern classification do?
+A: Infer activity from the pattern of brain state
+
+Q: How did MVPA help?
+A: 1. Focus moved from activation to information 2. Stimuli that activated the same region could now be picked apart 3. Allowed comparison between modalities
+
+Q: How did MVPA not help?
+A: Reverse inference problem remains, what is it really about the stimulus that causes an acitvation pattern
+
+Q: What do enconding models allow us to do?
+A: We can encode models with different parameters and test what models best fit the activation by this knowing what paramters neurons react most strongly to
+
+Q: What would decoding look like for the encoding models?
+A: Cross validation Leave-One-Outschema:Fit PRF's on all but one run:trainingTake activations of 'test' run,multiply % signal chance with PRF'sReconstruct visual stimulus frombrain activity: Predict position
+
+Q: What type of regression can solve the problem of too many parameters?
+A: Ridge regression
+
+Q: What is the benefit og ridge regression of MVPA?
+A: The beta weights are interpretable and the encoding model can be decoded to a decoding model

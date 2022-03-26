@@ -1,0 +1,29 @@
+Q: What 2 things do we use to combine to a MRI signal?
+A: Nuclear magnetic resonance and k-space encoding
+
+Q: Which direction is the strong magnetic field (B0)
+A: From feet to head (Z)
+
+Q: We measure a signal but we have no idea where it comes from, how do we calculate the location?
+A: The b0 value helps is encode location as frequency (k-space) then we use FFT to go to a 3d image
+
+Q: What kind of brain image would we get is we only used the low or high frequency?
+A: For the former only a rough map without detail for the other only an detail map with edges and resolution
+
+Q: What part ofthe complex number that the MRI signal consist of do we use?
+A: We use magnitude not the phase
+
+Q: How does measuring the transverse relaxation make us separate different brain matters?
+A: We know different tissue types like water, gray matter and white matter have different relaxation curves
+
+Q: What are the 2 types of echo?
+A: Spin echo and gradient echo
+
+Q: How does measuring bold with echo planar imaging (EPI) cause problems? 
+A: It creates b0 distortion artifacts
+
+Q: What is spin echo?
+A: A bunch of spins that give a pulse?
+
+Q: Is MRI dangerous?
+A: No because it is non-ionizing, but it can happen someone opens a door and a wheelchair get's smashed into the scanner. Also no metal objects in the scanner ever. Also RF can heat up tissue which is dangerous for metal implants, it is controllable though.
