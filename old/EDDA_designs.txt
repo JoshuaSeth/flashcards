@@ -1,0 +1,44 @@
+Q: Why do we include block variables?
+A: They are not of interest but should be included in the analysis for valid results
+
+Q: I what 3 ways ca we test for colliearity?
+A: scatter plots, correlations and the best with car.vif
+
+Q: What is an outlier?
+A: An outlier is an observation with an extremely high or low response value, compared to what is expected under the model.
+
+Q: What is an leverage point?
+A: An observation with an outlying value in the explanatory variable.
+
+Q: What is an potential point 
+A: An leverage point that does sigificantly influence the equation
+
+Q: What method can we use to measure for potential points?
+A: Cook's distance
+
+Q: How can we test for outliers?
+A: Mean shift outlier model
+
+Q: How does the mean shift outlier model work?
+A: u11=rep(0,16); u11[11]=1; u11; forbeslm11=lm(y~x+u11); summary(forbeslm11)
+
+Q: When can we read p-vaoues not on the lowest line? 
+A: The command drop1 is very handy: it performs the tests for the both models, strength≥thickness+type and strength≥type+thickness at once, whereas the p-values in the output of anova are sequential, as in a step-up strategy. This problem does not arise in (balanced) ANOVA or linear regression, but it does in an unbalanced ANOVA, ANCOVA and mixed models. Another (and the best) way to get correct p-values, e.g., for the factor type: fiber2=lm(strength≥thickness,data=fiber), then anova(fiber2,fiber1) will give the right p-values for the factor type.
+
+Q: How do we test for interaction between a factor and a predictor?
+A: We just test for the interaction term fiber3=lm(strength~type*thickness,data=fiber); anova(fiber3)
+
+Q: What is the concept behind ridge and lasso and whaat does this formula look like
+A: Manual inspection of p-vaues as in step models becomes unfeasable in large models so we add a penalty term to the formula we try to optimize lambda*P(beta)
+
+Q: What is elastic net?
+A: A mix between ridge and lasso by alpha
+
+Q: When do we use logistic regression?
+A: When the response variable is categorical (0-1)
+
+Q: When do we use poisson regression?
+A: When the outcome y is a count and as such approaches a poisson distribution
+
+Q: What is crossover design?
+A: A way of treating a block variable as random instead of fixed. Divide population into groups. Give all groups all treatments (with sufficient time in between) and reverse the order. Beta is now a learning effect explicating the effect of first taking one drug and then aother. You end up with an 2x2 table.
